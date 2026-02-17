@@ -1,0 +1,4 @@
+https://dash.plotly.com/dash-core-components
+https://dash.gallery/Portal/
+https://plotly.com/python-api-reference/plotly.express.html
+https://plotly.com/python/

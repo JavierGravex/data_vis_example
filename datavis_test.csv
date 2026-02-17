@@ -1,0 +1,11 @@
+﻿intv_Id,intv_Gender,intv_BirthY,intv_Age,intv_Edu,intv_BirthCount,intv_YearsSpa,intv_YearsEngl
+1,Male,1987,32,Bachelors,USA,31,0
+2,Female ,1996,22,High School,Mexico,0,22
+3,Female ,1996,22,High School,Mexico,20,21
+4,Female ,1993,25,Freshman College,USA,14,24
+5,Male,1970,48,Few years of college,USA,47,47
+6,Female ,1996,22,Sophomore College,USA,21,17
+7,Female ,1996,22,Junior College,Mexico,21,0
+8,Male,1974,44,Bachelors,Mexico,30,47
+9,Female ,1963,58,7th Grade,USA,56,29
+10,Female ,1966,55,Doctoral Degree,Mexico,54,36
