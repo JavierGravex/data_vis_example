@@ -9,15 +9,16 @@ This project provides an interactive data visualization suite built with Python,
 ### Key Visualizations
 Demographic Sunburst Chart: A multi-layered look at the participant pool, categorized by Birth Country, Gender, and Education level.
 
-https://github.com/user-attachments/assets/d060771b-1963-45c5-954f-f59389f338ff
+![Image](https://github.com/user-attachments/assets/1eccd1e3-e1e7-4548-8a21-4024080d201e)
 
 Linguistic Balance Pyramid: A mirrored bar chart comparing years of Spanish vs. English experience for each participant.
 
-https://github.com/user-attachments/assets/78e3db97-bb0b-42c4-a7c3-6ad07d0e61c4
+![Image](https://github.com/user-attachments/assets/37fd8987-9d79-4712-b7a1-b64fcbf7ba7c)
+
 
 Language Dominance Scatter Plot: A 2D mapping of language experience that identifies "Balanced Bilinguals" vs. language-dominant individuals, with bubble sizes representing participant age to visualize generational shifts.
 
-https://github.com/user-attachments/assets/26d14a96-340b-4552-a573-809ee0895b6a
+![Image](https://github.com/user-attachments/assets/b8cae00b-a781-4321-8fca-ad2b7418622c)
 
 ## Getting Started
 ### Prerequisites
