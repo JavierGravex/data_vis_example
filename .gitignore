@@ -1,0 +1,15 @@
+# Python environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary Python files
+__pycache__/
+*.pyc
+tempCodeRunnerFile.py
+
+# System files
+.DS_Store
+Thumbs.db
