@@ -5,12 +5,19 @@ The CoBiVa (Corpus Bilingüe del Valle) documents the Spanish and English spoken
 ### Project Overview
 This project provides an interactive data visualization suite built with Python, Pandas, and Plotly. The goal is to transform raw sociolinguistic data into intuitive, interactive maps of bilingual identity.
 
+
 ### Key Visualizations
 Demographic Sunburst Chart: A multi-layered look at the participant pool, categorized by Birth Country, Gender, and Education level.
 
+https://github.com/user-attachments/assets/d060771b-1963-45c5-954f-f59389f338ff
+
 Linguistic Balance Pyramid: A mirrored bar chart comparing years of Spanish vs. English experience for each participant.
 
+https://github.com/user-attachments/assets/78e3db97-bb0b-42c4-a7c3-6ad07d0e61c4
+
 Language Dominance Scatter Plot: A 2D mapping of language experience that identifies "Balanced Bilinguals" vs. language-dominant individuals, with bubble sizes representing participant age to visualize generational shifts.
+
+https://github.com/user-attachments/assets/26d14a96-340b-4552-a573-809ee0895b6a
 
 ## Getting Started
 ### Prerequisites
