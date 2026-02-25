@@ -51,3 +51,11 @@ Sunburst Chart: An interactive Plotly graph that expands and shrinks as you clic
 
 3. The Callback (The "Logic")
 The app uses a Callback function. This is a listener that detects when a user changes the dropdown selection. It automatically recalculates the chart hierarchy and updates the display without needing to refresh the page.
+
+
+# References:
+https://dash.plotly.com/dash-core-components
+https://dash.gallery/Portal/
+https://plotly.com/python-api-reference/plotly.express.html
+https://plotly.com/python/
+
