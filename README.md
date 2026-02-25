@@ -1,61 +1,56 @@
-# Data Visualization Dashboard
-This project is an interactive web application built with Python, Dash, and Plotly. It allows users to visualize participant demographics using a dynamic Sunburst chart.
+# CoBiVa Data Visualization Project
+### About CoBiVa
+The CoBiVa (Corpus Bilingüe del Valle) documents the Spanish and English spoken in South Texas, specifically in the Rio Grande Valley. This digital oral corpus provides material for multiple linguistic analyses of local language varieties and subsequent comparisons with other varieties.
+
+### Project Overview
+This project provides an interactive data visualization suite built with Python, Pandas, and Plotly. The goal is to transform raw sociolinguistic data into intuitive, interactive maps of bilingual identity.
+
+### Key Visualizations
+Demographic Sunburst Chart: A multi-layered look at the participant pool, categorized by Birth Country, Gender, and Education level.
+
+Linguistic Balance Pyramid: A mirrored bar chart comparing years of Spanish vs. English experience for each participant.
+
+Language Dominance Scatter Plot: A 2D mapping of language experience that identifies "Balanced Bilinguals" vs. language-dominant individuals, with bubble sizes representing participant age to visualize generational shifts.
 
 ## Getting Started
-Prerequisites
-Ensure you have Python 3.8+ installed on your machine.
+### Prerequisites
+Python 3.8+
 
-## Installation
-1: Clone or Download this repository to your local machine.
+### A browser to view the interactive charts
 
-2: Open your terminal (or VS Code terminal) and navigate to the project folder.
+### Installation
+Clone or download this repository to your local machine.
 
-3: Install the required libraries using the following command:
+Navigate to the project folder in your terminal:
 
-```Bash
-pip install -r requirements.txt
-```
+``cd data_vis_example``
+### Activate your Virtual Environment:
+- Windows:
+``.\venv\Scripts\activate``
 
-Project Structure
-```
-main.py The core script containing the Dash layout and logic.
-```
-```
-datavis_test.csv The dataset (must be in the same folder as main.py).
-```
-```
-requirements.txt: List of dependencies (pandas, dash, plotly).
-```
-## Running the App
-Run the script from your terminal:
+- Install dependencies:
+``pip install -r requirements.txt``
 
-```Bash
-python main.py
-```
-Once the script starts, you will see a message: Dash is running on http://127.0.0.1:8050/ (Or somthing similar)
+### Project Structure
 
-Click the link or copy-paste it into your browser to view the dashboard.
+- Example_01.ipynb: The primary Jupyter Notebook containing the data processing and all interactive visualizations.
 
-## How It Works
-The dashboard is divided into three main components:
+- datavis_test.csv: The sanitized dataset used for the analysis (re-formatted for research purposes).
 
-1. Data Processing
-Using Pandas, we load the CSV file into a "DataFrame." This acts like a high-performance spreadsheet that Python can manipulate instantly.
+- requirements.txt: List of Python dependencies (Pandas, Plotly, Dash).
 
-2. Interactive Layout
-The interface consists of:
+- .gitignore: Configured to exclude virtual environments and temporary system files.
 
-Dropdown Menu: Allows you to switch between different data hierarchies (e.g., viewing by Country first vs. Gender first).
+### Usage
+- Open Example_01.ipynb in VS Code or Jupyter.
 
-Sunburst Chart: An interactive Plotly graph that expands and shrinks as you click on different segments.
+- Run all cells to generate the interactive Plotly figures.
 
-3. The Callback (The "Logic")
-The app uses a Callback function. This is a listener that detects when a user changes the dropdown selection. It automatically recalculates the chart hierarchy and updates the display without needing to refresh the page.
-
+- Hover over data points in the Language Dominance Graph to see specific participant metadata (ID, Birth Country, Education).
 
 # References:
-https://dash.plotly.com/dash-core-components
-https://dash.gallery/Portal/
-https://plotly.com/python-api-reference/plotly.express.html
-https://plotly.com/python/
+- https://dash.plotly.com/dash-core-components
+- https://dash.gallery/Portal/
+- https://plotly.com/python-api-reference/plotly.express.html
+- https://plotly.com/python/
 
